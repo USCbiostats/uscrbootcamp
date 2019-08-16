@@ -30,7 +30,7 @@ remotes::install_github("USCbiostats/uscrbootcamp")
 Once you've installed the package, install the course with
 
 ``` r
-uscrbootcamp::install_course("path/to/your/computer")
+uscrbootcamp::install_bootcamp("path/to/your/computer")
 ```
 
 Replace "path/to/your/computer" with where on your computer you want the course installed.

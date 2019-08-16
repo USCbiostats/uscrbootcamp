@@ -1,6 +1,6 @@
 #' Install course materials
 #'
-#' `install_course()` will install the course materials for the USC Preventive
+#' `install_bootcamp()` will install the course materials for the USC Preventive
 #' Medicine R Bootcamp (Intro to Data Analysis) on your computer. Then, it will
 #' open a new RStudio Project containing the files you'll need.
 #'
@@ -8,7 +8,7 @@
 #'   installed
 #'
 #' @export
-install_course <- function(path = ".") {
+install_bootcamp <- function(path = ".") {
   usethis::use_course(
     "https://github.com/malcolmbarrett/rbootcamp_data_analysis",
     normalizePath(path)
