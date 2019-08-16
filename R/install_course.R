@@ -10,7 +10,7 @@
 #' @export
 install_bootcamp <- function(path = ".") {
   usethis::use_course(
-    "https://github.com/malcolmbarrett/rbootcamp_data_analysis",
+    "malcolmbarrett/rbootcamp_data_analysis",
     normalizePath(path)
   )
 }
