@@ -1,21 +1,10 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # Install the course materials for the USC Preventive Medicine R Bootcamp in Data Analysis
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 ## Installation
@@ -27,10 +16,11 @@ install.packages("remotes")
 remotes::install_github("USCbiostats/uscrbootcamp")
 ```
 
-Once you've installed the package, install the course with
+Once you’ve installed the package, install the course with
 
 ``` r
 uscrbootcamp::install_course("path/to/your/computer")
 ```
 
-Replace "path/to/your/computer" with where on your computer you want the course installed.
+Replace “path/to/your/computer” with where on your computer you want the
+course installed.
